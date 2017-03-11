@@ -1,0 +1,20 @@
+{
+    "name": "shahariaazam/slim-phpstorm-autocomplete",
+    "description": "Slim PHP Framework PhpStorm IDE autocompletion example",
+    "type": "project",
+    "require": {
+        "slim/slim": "^3.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaharia Azam",
+            "email": "shaharia.azam@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShahariaAzam\\Classes\\": "src"
+        }
+    }
+}
